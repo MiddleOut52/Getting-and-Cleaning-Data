@@ -1,0 +1,15 @@
+The steps performed using this script are included in the README file
+
+Changes to the data:
+
+After importing the data, all of the values that did not pertain to mean or std were removed.
+Another data manipulation done, was renaming the variables to add clarity
+
+
+Variables:
+
+1) activity, features, subject_train, x_train, y_train, subject_test, x_test and y_test are all used to store the data
+2) training_data and test_data are the result of binding columns of the above variables
+3) combined_data is the result of binding the rows of training_data and test_data
+4) mean_std creates a logical vector that is TRUE is the column contains mean or std
+5) tidy_data2 is a data set with the average of each variable for each activity for each subject
