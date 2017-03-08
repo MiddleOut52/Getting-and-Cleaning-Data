@@ -1,0 +1,9 @@
+The r_analysis.R script does the following things:
+
+1) Imports the dataset from the downloaded zip file
+2) Reads in the activities, and the subjet IDs
+3) Reads in the test and train tables, and binds the columns for each
+4) Binds the rows of the test table with the rows of the train table
+5) Removes the columns that do not pertain to mean and std
+6) Renames the columns to be more informative
+7) Creates a new dataset with the average of each variable for each activity and each subject
